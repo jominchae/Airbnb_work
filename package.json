@@ -1,0 +1,21 @@
+{
+  "name": "airbnb_work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/copy-dev-to-prod.js",
+    "deploy": "npm run build && git add index.html && git commit -m \"🔁 index.html 업데이트\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jominchae/Airbnb_work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jominchae/Airbnb_work/issues"
+  },
+  "homepage": "https://github.com/jominchae/Airbnb_work#readme",
+  "description": ""
+}
